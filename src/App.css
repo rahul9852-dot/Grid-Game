@@ -1,0 +1,53 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  background: blue;
+  padding: 10px;
+}
+
+.grid-box{
+  height: 20px;
+  width: 20px;
+  padding: 4px;
+  border: 1px;
+  border: 1px solid gray;
+  background-color: white;
+  color: black;
+  margin: 4px;
+  text-align: center;
+  box-shadow: 0px 0px 2px 2px #fff;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 16px;
+}
+
+.btn{
+  border: none;
+  padding: 4px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+  background: white;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+
+.main{
+  margin: 100px;
+}
+
+.active {
+  background-color: red;
+}
